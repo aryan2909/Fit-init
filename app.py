@@ -213,6 +213,13 @@ def aasan3():
 @app.route("/aasan4/")
 def aasan4():
      return render_template("aasan4.html")
+     
+@app.route("/charts/")
+def charts():
+     values = [12, 19, 3, 5, 2, 3]
+     labels = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange']
+     colors = ['#ff0000','#0000ff','#ffffe0','#008000','#800080','#FFA500', '#FF2554', ]
+     return render_template("charts.html")
 
 @app.route("/vid1/")
 def vid1():

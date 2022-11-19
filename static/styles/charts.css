@@ -40,13 +40,14 @@
     margin-top: -20%;
 }
 .content{
-    background-color: lightgrey;
+  background-color: lightgrey;
   width: 300px;
   border: 5px solid green;
   padding: -10px;
-  margin: 20px;
-  margin-left: 14%;
-  margin-top: 4%;
+  display: block;
+  margin: auto;
+  margin-top: 58px;
+
 }
 .contents{
     font-size: 1.3rem;

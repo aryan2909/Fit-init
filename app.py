@@ -158,8 +158,10 @@ def gen_frames():
                  
                     def print_acc():
                          ans=(abs(accuracy)*1000)/3
-                         if(ans>80):
+                         if(ans>40 and ans<100):
                               print(ans) 
+                         else: 
+                              exit()
                     
                  print_acc()
                    
@@ -213,7 +215,7 @@ def aasan3():
 @app.route("/aasan4/")
 def aasan4():
      return render_template("aasan4.html")
-     
+
 @app.route("/charts/")
 def charts():
      values = [12, 19, 3, 5, 2, 3]
